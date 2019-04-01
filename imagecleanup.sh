@@ -6,5 +6,5 @@ if [ -z "$imgID" ]; then
    echo "No Images to delete."
 else
    echo "Clean up previous build image $imgID"
-   docker rmi $imgID
+   sudo docker rmi $imgID
 fi
